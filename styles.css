@@ -1,0 +1,116 @@
+.container {
+    position: relative;
+    width: 375px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    background-color: rgb(26, 27, 27); /* Background color of the box */
+    margin: 0 auto; /* Center the box horizontally */
+    margin-top: 100px; /* Adjust vertical position as needed */
+    margin-bottom: 100px;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    align-items: flex-start;
+    padding: 37px 0;
+    
+
+
+}
+.container img {
+    width: 100px;
+    height: 100PX;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 100%;
+    }
+.container p {
+        margin-top: 28px; /* Add space between the image and text */
+        font-size: 22px; /* Adjust font size as needed */
+        margin-bottom: 8px;
+}
+.container h4{
+    margin-top: 10px;
+    color: rgb(100, 165, 35);
+}
+    .container h5{
+     margin-top: 30px;
+     color: rgb(217, 226, 226);
+    }
+.PROFILE{
+    text-align: center;
+}
+.rectangular-button {
+    position: absolute; /* Position the button absolutely */
+    bottom: 20px; /* Position the button 20px from the bottom */
+    width: 300px; /* Adjust width as needed */
+    height: 42px; /* Adjust height as needed */
+    border: none; /* Remove default button border */
+    background-color: #3e4042; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Show pointer on hover */
+    z-index: 1; /* Ensure the button is above other elements */
+    border-radius: 3.3%;
+    overflow: hidden;
+}
+/* Style for button hover effect */
+.rectangular-button:hover {
+    background-color: #222324; /* Change background color on hover */
+}
+
+/* Additional styles for stacking buttons */
+.rectangular-button:nth-child(2) {
+    bottom: 70px; /* Position the second button below the first */
+}
+
+.rectangular-button:nth-child(3) {
+    bottom: 100px; /* Position the third button below the second */
+}
+
+.rectangular-button:nth-child(4) {
+    bottom: 120px; /* Position the fourth button below the third */
+}
+
+.rectangular-button:nth-child(5) {
+    bottom: 180px; /* Position the fifth button below the fourth */
+}
+
+.rectangular-button:nth-child(1) {
+    left: 50%; /* Position the third button in the center horizontally */
+    transform: translateX(-50%); /* Center the button precisely */
+    bottom: 50px; /* Position the third button below the second */
+    top: 555px;
+}
+/* Additional styles for positioning buttons */
+.rectangular-button:nth-child(2) {
+    left: 50%; /* Position the second button in the center horizontally */
+    transform: translateX(-50%); /* Center the button precisely */
+    bottom: 70px;
+    top: 490px;
+}
+
+.rectangular-button:nth-child(3) {
+    left: 50%; /* Position the third button in the center horizontally */
+    transform: translateX(-50%); /* Center the button precisely */
+    bottom: 90px; /* Position the third button below the second */
+    top: 425px;
+}
+
+.rectangular-button:nth-child(4) {
+    left: 50%; /* Position the fourth button in the center horizontally */
+    transform: translateX(-50%); /* Center the button precisely */
+    bottom: 120px; /* Position the fourth button below the third */
+    top: 360px;
+}
+
+.rectangular-button:nth-child(5) {
+    left: 50%; /* Position the fifth button in the center horizontally */
+    transform: translateX(-50%); /* Center the button precisely */
+    bottom: 150px; /* Position the fifth button below the fourth */
+    top: 295px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
