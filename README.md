@@ -11,9 +11,6 @@ HTML, CSS
 ## ✨ Features
 - Responsive design
 
-## 📷 Screenshots
-(Add images using markdown: ![screenshot](path/to/image.png))
-
 ## 🙋 Author
 Your Name  
 github.com/GM_Abdulazeez
